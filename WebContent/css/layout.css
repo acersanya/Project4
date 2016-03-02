@@ -1,0 +1,110 @@
+.col1, .col2, .col3, .cols {
+	float: left
+}
+
+.col1 {
+	 margin-left: 40px;
+
+}
+
+.col2 {
+	padding-left: 42px;
+}
+
+.cols {
+	width: 263px
+}
+/* index.html */
+/* index-1.html */
+/* index-2.html */
+/* index-3.html */
+#page4 .cols {
+	width: 155px
+}
+
+#page4 .marg_right1 {
+	margin-right: 41px
+}
+/* index-4.html */
+#page5 .cols {
+	width: 256px
+}
+
+#page5 .pad_left1 {
+	padding-left: 40px
+}
+/* index-5.html */
+#page6 .cols {
+	width: 68px
+}
+
+#page6 .col2 {
+	width: 560px
+}
+/* index-6.html */
+table {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	width: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, th {
+	border: 1px solid transparent; /* No more visible border */
+	height: 30px;
+	transition: all 0.3s; /* Simple transition for hover effect */
+}
+
+th {
+	background: #DFDFDF; /* Darken header a bit */
+	font-weight: bold;
+}
+
+td {
+	background: #FAFAFA;
+	text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */
+tr:nth-child(even) td {
+	background: #F1F1F1;
+}
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */
+tr:nth-child(odd) td {
+	background: #FEFEFE;
+}
+
+tr td:hover {
+	background: #666;
+	color: #FFF;
+} /* Hover cell effect! */
+
+.btn {
+  background: #cfcfcf;
+  background-image: -webkit-linear-gradient(top, #cfcfcf, #bfbfbf);
+  background-image: -moz-linear-gradient(top, #cfcfcf, #bfbfbf);
+  background-image: -ms-linear-gradient(top, #cfcfcf, #bfbfbf);
+  background-image: -o-linear-gradient(top, #cfcfcf, #bfbfbf);
+  background-image: linear-gradient(to bottom, #cfcfcf, #bfbfbf);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
